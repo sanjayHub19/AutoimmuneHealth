@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+body{
+    position: relative;
+    height: 100%;
+    overflow-x: scroll;
+    
+    background: linear-gradient(180deg, #009EFD 0%, #2AF598 100%);
+    
+    
+}
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #009efd;
+    opacity: 0.9;
+  }
+  
+  .logo-text {
+    font-family: "Impact";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #ffffff !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+  .navbar .nav-link {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Sen", sans-serif;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+    justify-content: center;
+  }
+  
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+  }
+  
+  .navbar-nav .nav-link {
+    padding-right: 0.5 rem;
+    padding-left: 0.5 rem;
+  }
+  .btn {
+    color: white;
+    background: #2af598;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+        
+     
+}
+.programs-heading {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150px;
+    color: #FFFFFF;
+      
+}
+.programs-img {
+    max-width: 100%;
+    height: auto;
+    margin: top 0;;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: linear-gradient(180deg, #2AF598 0%, rgba(217, 217, 217, 0) 100%);
+    width: 547px;
+    height: 984px;
+    margin: 10px;
+    border-radius:273.5px;
+    align-items: center;
+
+}
+
+.card h2{
+    padding-top: 100px;
+    width: 414px;
+    height:102px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.card p{
+    padding-top: 200px;
+    width: 464px;
+    height: 497px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 75%;
+        height: auto;
+        border-radius: 40%;
+    }
+
+    .card h2{
+        padding-top: 50px;
+        width: 75%;
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .card p{
+        padding-top: 20px;
+        width: 75%;
+        font-size: 16px;
+        line-height: 30px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 75%;
+    height: auto;
+    border-radius:40%;
+}
+
+    .card h2{
+        padding-top: 30px;
+        width: 75%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .card p{
+        padding-top: 10px;
+        width: 75%;
+        font-size: 16px;
+        line-height: 24px;
+        height: auto;
+    }
+}
